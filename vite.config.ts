@@ -8,6 +8,7 @@ export default defineConfig(() => {
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
+        base: '/Mandelbrot-Zoomer/',
         '@': path.resolve(__dirname, '.'),
       },
     },
