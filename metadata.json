@@ -1,0 +1,6 @@
+{
+  "name": "Mandelbrot Zoomer",
+  "description": "An elegant, GPU-accelerated WebGL Mandelbrot set rendering loop that automatically pans and zooms into 10 beautiful points of interest with shifting color palettes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
