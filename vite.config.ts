@@ -5,10 +5,10 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Mandelbrot-Zoomer/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
-        base: '/Mandelbrot-Zoomer/',
         '@': path.resolve(__dirname, '.'),
       },
     },
